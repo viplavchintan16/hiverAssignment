@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+    <test name="POM Based Project">
+        <classes>
+            <class name="tests.TestBase"/>
+            <class name="tests.automation1"/>
+            <class name="tests.automation2"/>
+        </classes>
+    </test>
+</suite>
